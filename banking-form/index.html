@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- tells browser what version-->
+<html>
+<head> <!-- header info, styles, meta etc-->
+  <meta charset="UTF-8">  <!-- define alphabet-->
+  <meta name="author" content="Anulfo"> <!-- Define Page author -->
+  <title>BofA</title> <!--tab title-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+  <body>
+    <h1>BANKING FORM</h1>
+<br><br>
+    <div>
+      <h2>Personal Information</h2>
+      
+      <label for="firstname">First Name</label>
+      <input type="text" name="perid" placeholder="John">
+<br>
+      <label for="middlename">Middle Name Initial</label>
+      <input type="text" name="perid" placeholder="R.">
+<br>
+      <label for="lastname">Last Name</label>
+      <input type="text" name="perid" placeholder="Doe">
+<br>
+      <label for="address">Your Address</label>
+      <input type="text" name="perid" placeholder="3720 Inverrary Dr. Lauderhill. 33319">
+<br>
+      <label>Occupation</label>
+      <input type="text" name="perid" placeholder="Journalist">
+<br>
+      <label>Actual Employer</label>
+      <input type="text" name="perid" placeholder="NY Times Journal">
+<br>
+      <label>Employer Address</label>
+      <input type="text" name="perid" placeholder="3720 Inverrary Dr. Lauderhill. 33319">
+    </div>
+
+    <div>
+      <h2>Loan Description</h2>
+
+      <label for="comercial">Comercial</label>
+      <input type="radio" name="typo">
+
+      <label for="comercial">Real State</label>
+      <input type="radio" name="typo">
+
+      <label for="comercial">Personal</label>
+      <input type="radio" name="typo">
+
+      <label for="comercial">Mortgage</label>
+      <input type="radio" name="typo">
+<br><br>
+      <label>Loan Amount(up to 25000$)</label>
+      <input type="number" name="loan" min="500" max="25000">
+      <br>
+      <p>Loan Length</p>
+      <label for="5y">5 years</label>
+      <input type="radio" name="years">
+
+      <label for="5y">15 years</label>
+      <input type="radio" name="years">
+
+      <label for="5y">20 years</label>
+      <input type="radio" name="years">
+    </div>
+
+    <div>
+      <h2>Special Conditions</h2>
+
+      <label for="comercial">I have a down payment</label>
+      <input type="checkbox" name="spec">
+
+      <label for="comercial">Out-of-State Resident</label>
+      <input type="checkbox" name="spec">
+
+      <label for="comercial">Married</label>
+      <input type="checkbox" name="spec">
+
+      <label for="comercial">Loan will be co-signed</label>
+      <input type="checkbox" name="spec">
+    </div>
+
+    <div>
+      <h2>Comments and Suggestions</h2>
+      <textarea cols="40" rows="5" ></textarea>
+    </div>
+
+    <div>
+      <h2>Contact Data</h2>
+
+      <label>Email Address</label>
+      <input type="email" placeholder="email@gmail.com">
+
+      <label>Phone Number</label>
+      <input type="phone" placeholder="email@gmail.com">
+
+      <label for="linked">LinkedIn</label>
+      <input type="url" placeholder="http://www.fuckapp.com">
+    </div>
+<br><br>
+  </body>
