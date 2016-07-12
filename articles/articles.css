@@ -1,0 +1,65 @@
+div {
+	width: 30%;
+	margin-bottom: 1em;
+	border: 2px solid black;
+}
+
+#uniquea {
+	background-color: blue;
+	font-family: "Times New Roman", serif, sans-serif;
+	font-size: 1em;
+	color: yellow;
+	line-height: 1em;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+#uniqueb {
+	background-color: red;
+	font-family: Verdana, serif, sans-serif;
+	font-size: 1.2em;
+	color: blue;
+	line-height: 1.1em;
+	padding: 1.5em;
+	border-radius: 10px
+}
+
+#uniquec {
+	background-color: green;
+	font-family: Arial, serif, sans-serif;
+	font-size: 1.3em;
+	color: pink;
+	line-height: 2em;
+	padding: 2em;
+	border-radius: 15px
+}
+
+#uniqued {
+	background-color: brown;
+	font-family: sans-serif, serif;
+	font-size: 1.4em;
+	color: green;
+	line-height: 1.3em;
+	padding: 2.5em;
+	border-radius: 20px
+}
+
+#uniquee {
+	background-color: pink;
+	font-family: "Helvetica", serif, sans-serif;
+	font-size: 1.5em;
+	color: yellow;
+	line-height: 1.4em;
+	padding: 3em;
+	border-radius: 25px
+}
+
+#uniquef {
+	background-color: black;
+	font-family: "Comic Sans MS", serif, sans-serif;
+	font-size: 1.6em;
+	color: white;
+	line-height: 1.5em;
+	padding: 3.5em;
+	border-radius: 30px
+}
