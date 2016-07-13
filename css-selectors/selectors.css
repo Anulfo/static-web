@@ -1,0 +1,17 @@
+header {
+	width: 30%;
+	border: 1px solid blue;
+}
+
+header ul li {
+	display: inline;
+	padding-right: 2em;
+}
+
+.disabled {
+	color: orange;
+}
+
+a .disabled {
+	color: purple;
+}
