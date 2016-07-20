@@ -1,9 +1,12 @@
-var letters = ("abcdefghijklmnopqrstuvwyz");
+var letters = "abcdefghijklmnopqrstuvwxyz"
 var newAlph = [];
-var countsp;
 for (i = 0; i < letters.length; i++) {
-  newAlph.push(letters[i])
-  countsp = newAlph.length;
-    console.log(newAlph.join("")); 
-    console.log(countsp)
+  if ((i + 1)%5 === 0 & i !== 0) {
+    newAlph.push(letters[i], ' ');
+  }
+  else {
+    newAlph.push(letters[i]);
+  }
+  str = newAlph.join('');
+  console.log(str);
 }
